@@ -1,5 +1,5 @@
 {
-  "homepage":"https://jinzxu.github.io/tripgo-app",
+  "homepage":"https://jinzxu.github.io/tripgoapp",
   "name": "tripago-app",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "npx json-server --watch public/db.json"
+    "server": "npx json-server --watch public/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": [

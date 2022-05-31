@@ -22,9 +22,10 @@ export const useFetch = (url, _options) => {
           throw new Error(res.statusText)
         }
         const data = await res.json()
+        
 
         setIsPending(false)
-        setData(data)
+        setData(Object.values(data)[0])
         setError(null)
       } catch (err) {
         if (err.name === "AbortError") {
@@ -38,11 +39,12 @@ export const useFetch = (url, _options) => {
 
     fetchData()
 
+
     return () => {
       controller.abort()
     }
 
   }, [url, options])
-
+  
   return { data, isPending, error }
 }
