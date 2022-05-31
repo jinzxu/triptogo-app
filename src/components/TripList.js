@@ -21,10 +21,10 @@ export default function TripList() {
         ))}
       </ul>
       <div className="filters">
-        <button onClick={() => setUrl('http://localhost:3000/trips?loc=europe')}>
+        <button onClick={() => setUrl('https://my-json-server.typicode.com/jinzxu/tripgoapp/db?loc=europe')}>
           European Trips
         </button>
-        <button onClick={() => setUrl('http://localhost:3000/trips')}>
+        <button onClick={() => setUrl('https://my-json-server.typicode.com/jinzxu/tripgoapp/db')}>
           All Trips
         </button>
       </div>
