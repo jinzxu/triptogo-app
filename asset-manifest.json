@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/triptogo-app/static/css/main.c43c2311.css",
+    "main.js": "/triptogo-app/static/js/main.d734c937.js",
+    "index.html": "/triptogo-app/index.html",
+    "main.c43c2311.css.map": "/triptogo-app/static/css/main.c43c2311.css.map",
+    "main.d734c937.js.map": "/triptogo-app/static/js/main.d734c937.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c43c2311.css",
+    "static/js/main.d734c937.js"
+  ]
+}
